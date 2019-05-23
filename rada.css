@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Poppins;
+    src: url(sansation_light.woff);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+.littleStripe {
+    border-bottom: 5px solid #13253B;
+    width: 5%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #13253B;
+    color:#FFF;
+    height: 270px;
+}
+
+.fifth {
+background-color: #F7F7F7;
+color: #3B3B3B;
+}
+button {
+    background-color: #1FE7B6;
+    border: none;
+    color: #FFF;
+  
+}
+.location, .phone, .website {
+    background-color: white;
+    color: #3B3B3B;
+}
+
+.sayHelloText {
+    height: 142px;
+}
+
+.locationForm {
+    width: 1134px;
+   
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+}
+.btna {
+    margin-left: -70px;
+ margin-top: 20px;
+}
