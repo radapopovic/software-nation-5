@@ -1,6 +1,10 @@
 @font-face {
-    font-family: Poppins;
-    src: url(sansation_light.woff);
+    font-family: poppinsLight;
+    src: url(fonts/Poppins-Light.otf);
+  }
+  @font-face {
+    font-family: poppinsMedium;
+    src: url(fonts/Poppins-Medium.otf);
   }
 
   * {
@@ -16,7 +20,7 @@
 footer {
     background-color: #13253B;
     color:#FFF;
-    height: 270px;
+    height: 200px;
 }
 
 .fifth {
@@ -27,6 +31,8 @@ button {
     background-color: #1FE7B6;
     border: none;
     color: #FFF;
+    font-family: poppinsMedium;
+    font-size: 16px;
   
 }
 .location, .phone, .website {
@@ -49,4 +55,11 @@ h3 {
 .btna {
     margin-left: -70px;
  margin-top: 20px;
+}
+iframe {
+    overflow: hidden;
+}
+.poppinsLights, pre {
+    font-family: poppinsLight;
+    font-size: 14px;
 }
